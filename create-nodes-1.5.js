@@ -1,0 +1,10 @@
+const div1 = document.createElement('div1');
+div1.classList.add('red');
+const div2 = document.createElement('div2');
+div2.classList.add('green');
+const div3 = document.createElement('div3');
+div3.classList.add('blue');
+div3.textContent = 'Я вложен';
+div1.append(div2);
+div2.append(div3);
+console.log(div1);
